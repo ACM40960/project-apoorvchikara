@@ -4,7 +4,7 @@
 
 This project develops a real-time emotion detection system leveraging a Convolutional Neural Network (CNN). It interprets human emotions from facial expressions captured via webcam, utilizing advanced AI techniques in TensorFlow, OpenCV, and Keras for processing visual data.
 
-![Confusion Matrix]([URL_to_confusion_matrix_image](https://github.com/ACM40960/project-apoorvchikara/blob/main/image.png))
+![Confusion Matrix]([image.png))
 *Figure 1: Confusion Matrix - This image shows the confusion matrix of the model predictions versus actual labels, highlighting the model's accuracy and misclassifications.*
 
 ![Model Architecture]([URL_to_model_architecture_image](https://github.com/ACM40960/project-apoorvchikara/blob/main/ModelArchitecture.png))
