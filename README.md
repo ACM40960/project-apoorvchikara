@@ -7,7 +7,7 @@ This project develops a real-time emotion detection system leveraging a Convolut
 ![Confusion Matrix](image.png)
 *Figure 1: Confusion Matrix - This image shows the confusion matrix of the model predictions versus actual labels, highlighting the model's accuracy and misclassifications.*
 
-![Model Architecture]([URL_to_model_architecture_image](https://github.com/ACM40960/project-apoorvchikara/blob/main/ModelArchitecture.png))
+![Model Architecture](ModelArchitecture.png)
 *Figure 2: Model Architecture - Detailed architecture of the CNN used in the project, showcasing the layers and their configurations.*
 
 ## Installation
