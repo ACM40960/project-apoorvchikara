@@ -43,14 +43,17 @@ To train the model, execute:
 
 ## Model Evaluation
 After training, the model's performance can be evaluated on a test set. This includes generating a confusion matrix and classification report.
+
 ![Confusion Matrix](image.png)
+
 *Figure 2: Confusion Matrix - This image shows the confusion matrix of the model predictions versus actual labels, highlighting the model's accuracy and misclassifications.*
 ## Results
 Model performance metrics include accuracy, precision, recall, and F1-scores for each emotion class. A ROC curve analysis is also provided to assess the effectiveness across different thresholds.
 ![Accurcy Metric](Accuracy.png)
-*Figure 3: Accuracy per Epoch - .*
+*Figure 3: Accuracy per Epoch - The Accuracy Graph shows how the model's accuracy on the training and validation datasets evolves, indicating learning effectiveness and stability. Initially, both accuracies improve rapidly, with subsequent fluctuations in validation accuracy suggesting sensitivity to the validation data set or potential overfitting.*
 
 ![Loss Metric](Loss.png)
-*Figure 3: Model Loss per Epoch - .*
+*Figure 3: Model Loss per Epoch - The Loss Graph tracks the training and validation loss, decreasing overall as the model optimizes. However, variability in validation loss, particularly with occasional spikes, highlights challenges in model generalization, pointing to areas where model tuning and regularization may be needed to achieve more consistent performance across unseen datasets.*
+
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request.
