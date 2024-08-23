@@ -32,7 +32,7 @@ The CNN model consists of:
 - Dropout layers to prevent overfitting.
 - Dense layers for output classification.
 ![Model Architecture](ModelArchitecture.png)
-*Figure 2: Model Architecture - Detailed architecture of the CNN used in the project, showcasing the layers and their configurations.*
+*Figure 1: Model Architecture - Detailed architecture of the CNN used in the project, showcasing the layers and their configurations.*
 
 ## Usage
 The model can be trained and evaluated using the provided script. The training process includes data augmentation to enhance model robustness.
@@ -44,9 +44,13 @@ To train the model, execute:
 ## Model Evaluation
 After training, the model's performance can be evaluated on a test set. This includes generating a confusion matrix and classification report.
 ![Confusion Matrix](image.png)
-*Figure 1: Confusion Matrix - This image shows the confusion matrix of the model predictions versus actual labels, highlighting the model's accuracy and misclassifications.*
+*Figure 2: Confusion Matrix - This image shows the confusion matrix of the model predictions versus actual labels, highlighting the model's accuracy and misclassifications.*
 ## Results
 Model performance metrics include accuracy, precision, recall, and F1-scores for each emotion class. A ROC curve analysis is also provided to assess the effectiveness across different thresholds.
+![Accurcy Metric](Accuracy.png)
+*Figure 3: Accuracy per Epoch - .*
 
+![Loss Metric](Loss.png)
+*Figure 3: Model Loss per Epoch - .*
 ## Contributing
 Contributions to this project are welcome. Please fork the repository and submit a pull request.
