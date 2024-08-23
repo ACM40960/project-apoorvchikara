@@ -4,12 +4,6 @@
 
 This project develops a real-time emotion detection system leveraging a Convolutional Neural Network (CNN). It interprets human emotions from facial expressions captured via webcam, utilizing advanced AI techniques in TensorFlow, OpenCV, and Keras for processing visual data.
 
-![Confusion Matrix](image.png)
-*Figure 1: Confusion Matrix - This image shows the confusion matrix of the model predictions versus actual labels, highlighting the model's accuracy and misclassifications.*
-
-![Model Architecture](ModelArchitecture.png)
-*Figure 2: Model Architecture - Detailed architecture of the CNN used in the project, showcasing the layers and their configurations.*
-
 ## Installation
 
 ### Prerequisites
@@ -37,6 +31,8 @@ The CNN model consists of:
 - MaxPooling layers to reduce spatial dimensions.
 - Dropout layers to prevent overfitting.
 - Dense layers for output classification.
+![Model Architecture](ModelArchitecture.png)
+*Figure 2: Model Architecture - Detailed architecture of the CNN used in the project, showcasing the layers and their configurations.*
 
 ## Usage
 The model can be trained and evaluated using the provided script. The training process includes data augmentation to enhance model robustness.
@@ -47,7 +43,8 @@ To train the model, execute:
 
 ## Model Evaluation
 After training, the model's performance can be evaluated on a test set. This includes generating a confusion matrix and classification report.
-
+![Confusion Matrix](image.png)
+*Figure 1: Confusion Matrix - This image shows the confusion matrix of the model predictions versus actual labels, highlighting the model's accuracy and misclassifications.*
 ## Results
 Model performance metrics include accuracy, precision, recall, and F1-scores for each emotion class. A ROC curve analysis is also provided to assess the effectiveness across different thresholds.
 
